@@ -1,0 +1,17 @@
+Network Topology Overview
+
+client-vm (Workstation)
+ Subnet: 192.168.10.0/24
+ IP: 192.168.10.10
+ Gateway: 192.168.10.1
+
+router-vm (Dual NIC Router)
+ eth0 (client-net): 192.168.10.1
+ eth1 (server-net): 192.168.20.1
+ eth2 (router-net): 192.168.99.1
+ Performs routing between the two subnets and provides NAT.
+
+srv-web (Web Server)
+ Subnet: 192.168.20.0/24
+ IP: 192.168.20.10
+ Gateway: 192.168.20.1
