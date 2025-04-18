@@ -1,0 +1,16 @@
+VM Specifications
+
+client-vm
+ 1 vCPU
+ 512MB RAM
+ Network: client-net (isolated network)
+
+router-vm
+ 1 vCPU
+ 1024MB RAM
+ 3 NICs: client-net and server-net and router-net
+
+srv-web
+ 1 vCPU
+ 512MB RAM
+ Network: server-net

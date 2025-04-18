@@ -5,7 +5,7 @@ client-vm (Workstation)
  IP: 192.168.10.10
  Gateway: 192.168.10.1
 
-router-vm (Dual NIC Router)
+router-vm (3 NIC Router)
  eth0 (client-net): 192.168.10.1
  eth1 (server-net): 192.168.20.1
  eth2 (router-net): 192.168.99.1
